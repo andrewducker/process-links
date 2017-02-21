@@ -1,4 +1,4 @@
-[xml]$links = Get-Content c:\users\andre_000\desktop\links.xml
+[xml]$links = Get-Content .\links.xml
 $tags = $links.posts.post.tag
 
 $allTags = @{}
